@@ -83,6 +83,7 @@ function searchDocs() {
     global $engine;
     $result = $engine->createSearchBuilder()
         ->addIndex('blog')
+//        ->addFilter(new \Schranz\Search\SEAL\Search\Condition\SearchCondition('john'))
         ->addFilter(new \Schranz\Search\SEAL\Search\Condition\SearchCondition('jon'))
         //->addFilter(new \Schranz\Search\SEAL\Search\Condition\SearchCondition('العربية'))
         //->addFilter(new \Schranz\Search\SEAL\Search\Condition\EqualCondition('tags', 'Tech'))
