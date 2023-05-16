@@ -1,0 +1,11 @@
+{
+    "require": {
+        "schranz-search/seal": "^0.1.0",
+        "schranz-search/seal-elasticsearch-adapter": "^0.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
